@@ -1,25 +1,4 @@
-## Colors
-
-### Primary
-
-- Lime Green: hsl(163, 72%, 41%)
-- Bright Red: hsl(356, 69%, 56%)
-
-- Facebook: hsl(208, 92%, 53%)
-- Twitter: hsl(203, 89%, 53%)
-- Instagram: linear gradient hsl(37, 97%, 70%) to hsl(329, 70%, 58%)
-- YouTube: hsl(348, 97%, 39%)
-
-#### Dark Theme
-
-- Toggle: linear gradient hsl(210, 78%, 56%) to hsl(146, 68%, 55%)
-
-#### Light Theme
-
-- Toggle: hsl(230, 22%, 74%)
-
-*{
-    padding: 0;
+*{padding: 0;
     margin: 0;
 }
 
@@ -28,19 +7,11 @@
     flex-direction: column;
     height: auto;
     width: 1440;
-    justify-content: center;
-    width: 100%;
-}
-/* .main_container{
-    /* width: fit-content; */
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-} */
+    justify-content: center;}
 
 .header_layout{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: space-around;
     align-content: center;
     height: 100px;
@@ -136,7 +107,7 @@ input:checked + .slider:before {
 .app_1{
     background-color: hsl(227, 47%, 96%);
     width: 150px;
-    height: 150px;
+    height: 100px;
     border-radius: 10px;
     border-top: 3px solid hsl(230, 17%, 14%);
     display: flex;
@@ -148,7 +119,7 @@ input:checked + .slider:before {
 .app_2{
     background-color: hsl(227, 47%, 96%);
     width: 150px;
-    height: 150px;
+    max-height: 150px;
     border-radius: 10px;
     border-top: 3px solid rgb(0, 119, 255);
     display: flex;
